@@ -29,7 +29,7 @@ const loginUser = async(req, res) => {
   
 const createUser = async (req,res) => {
     try{
-        let data = req.body;
+        lert data = req.body;
          if(!data) return res.status(400).send({status: false, msg: "Deatils are required"})
 
          //check duplicacy
